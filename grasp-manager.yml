@@ -1,0 +1,14 @@
+generic:
+    compilation:
+        constants_set: generic
+        use_sudo: false
+        build: Release
+        prefix: /home/grasp/.local/
+        python: yes
+#        mpi: on
+        cmake_flags: "-DENABLE_GRASP_BRIDGE=hdf5_tiles -DBUILD_BINARY=off -DENABLE_TESTS=off -DENABLE_MERIS=OFF -DENABLE_OLCI=OFF -DENABLE_GOCI=OFF -DENABLE_AVHRR=OFF -DENABLE_MODIS=OFF -DENABLE_ENVSYN=OFF -DENABLE_AATSR=OFF -DENABLE_SLSTR=OFF -DENABLE_S3SYNERGY=OFF"
+    modules:
+        models: dev
+
+
+            
